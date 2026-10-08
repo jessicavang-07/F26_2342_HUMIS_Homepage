@@ -40,7 +40,7 @@ body {
                 }
 
                 img {
-                        vertical-align: middle;
+                    vertical-align: middle;
                 }
 
                 &.top-nav { /* & finds the class name of top-nav in the nav */
