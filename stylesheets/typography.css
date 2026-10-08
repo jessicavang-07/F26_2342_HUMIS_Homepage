@@ -1,0 +1,13 @@
+:root {
+    --burgandy: #A12D37;
+}
+
+body {
+    font-size: 16px;
+
+    h1 {
+        color: var(--burgandy);
+        font-size: 2rem; /* means: 16*2 = 32px */
+    }
+
+}
