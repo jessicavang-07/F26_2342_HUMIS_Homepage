@@ -72,7 +72,7 @@ body {
                     padding: 5px 20px;
 
 
-                    nav {
+                    nav.secondary {
                         display: flex;
                         justify-content: flex-end;
                         gap: 5px;
@@ -99,7 +99,7 @@ body {
                     }
 
                     main {
-
+                        min-height: 600px;
                         img {
                             &.pull-right { /* doing this only applies to img with the class(name) of pull-right */
                                 float: right;
