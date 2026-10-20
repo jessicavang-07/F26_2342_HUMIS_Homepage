@@ -100,13 +100,7 @@ body {
 
                     main {
                         min-height: 600px;
-                        img {
-                            &.pull-right { /* doing this only applies to img with the class(name) of pull-right */
-                                float: right;
-                                width: 150px;
-                                margin: 0 0 15px 15px;
-                            }
-                        }
+                        font-size: 12px;
                     }
                 }
             }
