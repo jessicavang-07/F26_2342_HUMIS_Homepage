@@ -27,15 +27,16 @@ main {
 
             img {
                 border-radius: 10px 0 35px 5px
-        }
+            }
 
-        h6 {
-            text-align: center;
-        }
-
-        &:hover {
             h6 {
-                text-decoration: underline;
+                text-align: center;
+            }
+
+            &:hover {
+                h6 {
+                    text-decoration: underline;
+                }
             }
         }
     }
