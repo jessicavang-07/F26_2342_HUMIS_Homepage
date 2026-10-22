@@ -58,7 +58,7 @@ body {
 
         }
 
-        // @TODO COME UP WITH A BETTER NAME
+        /* @TODO COME UP WITH A BETTER NAME */
         .shrug {
             font-size: 1.3rem;
             color: var(--burgundy);
