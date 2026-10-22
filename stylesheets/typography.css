@@ -43,7 +43,27 @@ body {
 
     p {
         text-align: justify;
-        /*border: 1px solid blue;*/
+        font-size: 0.75rem;
+
+        &.learn-more {
+            text-align: right;
+
+            a {
+                color: var(--burgundy);
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+        }
+
+        // @TODO COME UP WITH A BETTER NAME
+        .shrug {
+            font-size: 1.3rem;
+            color: var(--burgundy);
+            font-weight: bold;
+        }
     }
 
 }
