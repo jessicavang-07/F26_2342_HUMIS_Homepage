@@ -40,4 +40,12 @@ main {
             }
         }
     }
+
+    aside.right-column {
+        float: right;
+
+        img {
+            border-radius: 10px;
+        }
+    }
 }
