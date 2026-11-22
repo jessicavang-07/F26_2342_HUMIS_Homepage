@@ -79,15 +79,26 @@ body {
                     nav.secondary {
                         display: flex;
                         justify-content: flex-end;
+                        align-items: center;
                         gap: 5px;
                         font-size: 10px;
 
                         a {
                             color: black;
                             text-decoration: none;
+                            border-right: 1px solid black;
+                            padding-right: 5px;
+                            margin-left: 3px;
+                            height: 13px;
+
 
                             &:hover {
                                 text-decoration: underline;
+                            }
+
+                            &:last-of-type { /*removes the end of | */
+                                border-right: none;
+                                padding-right: unset;
                             }
                         }
 
@@ -109,6 +120,7 @@ body {
                     main {
                         min-height: 600px;
                         font-size: 12px;
+                        margin-top: 20px;
                     }
                 }
             }
