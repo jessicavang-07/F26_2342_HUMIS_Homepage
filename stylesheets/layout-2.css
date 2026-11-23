@@ -105,6 +105,22 @@ section.horizontal-two-column-layout {
                     }
                 }
 
+                div.section-top {
+                    span.headline {
+                        font-weight: bold;
+                    }
+                }
+
+                div.section-bottom {
+                    padding-top: 20px;
+
+                    span.headline {
+                        font-weight: bold;
+                    }
+
+                }
+
+
             }
 
             &.right-column {
@@ -128,6 +144,10 @@ section.horizontal-two-column-layout {
                 div.find-faculty {
                     line-height: 4px;
                     padding-bottom: 3px;
+                }
+
+                span.date {
+                    font-weight: bold;
                 }
 
 
