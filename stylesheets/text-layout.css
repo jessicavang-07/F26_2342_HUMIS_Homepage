@@ -48,6 +48,11 @@ section.horizontal-two-column-layout {
                             color: var(--burgundy);
                         }
                     }
+
+                    &.dept-calendar {
+                        margin-left: 20px;
+                    }
+
                 }
             }
 
@@ -88,11 +93,77 @@ section.horizontal-two-column-layout {
                 margin-top: 2px;
                 padding-bottom: 3px;
                 text-align: left;
+                color: var(--burgundy);
+
+
+                a.view-more {
+                    margin-top: 10px;
+                    font-weight: bold;
+                    font-size: 0.9rem;
+                }
+            }
+
+            span.italicize {
+                font-style: italic;
+            }
+
+            .calendar-link {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 10px;
 
                 a {
                     color: var(--burgundy);
+                    font-weight: bold;
+                    font-size: 0.75rem;
+                    text-transform: uppercase;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
 
                 }
+
+                img {
+                    width: 30px;
+
+                }
+            }
+
+            .announcement {
+                align-items: center;
+
+                img {
+                    width: 80px;
+                    float: right;
+                    margin: 10px 0 0 15px;
+
+
+                }
+
+                .date {
+                    padding-top: 20px;
+                    font-weight: bold;
+
+                }
+
+                .download {
+                    margin-top: 15px;
+
+                    a {
+                        color: var(--burgundy);
+                        font-weight: bold;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+
+                    }
+                }
+
             }
 
 
