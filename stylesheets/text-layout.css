@@ -66,14 +66,16 @@ section.horizontal-two-column-layout {
                 font-weight: bold;
             }
 
+            div.top {
+                padding-top: 10px;
 
-            div.classes {
-                margin-bottom: 1px;
-
-                p.second-headline {
+                p.course-info {
                     font-weight: bold;
+                    margin: 2px 0 2px 0;
+
                 }
             }
+
 
         }
 
