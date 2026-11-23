@@ -90,6 +90,10 @@ section.horizontal-two-column-layout {
             div.find-faculty {
                 line-height: 4px;
                 padding-bottom: 3px;
+
+                p {
+                    color: var(--burgundy);
+                }
             }
 
             div.listing {
@@ -98,6 +102,7 @@ section.horizontal-two-column-layout {
                     color: black;
 
                 }
+
 
                 p.find-faculty {
                     margin: 2px;
