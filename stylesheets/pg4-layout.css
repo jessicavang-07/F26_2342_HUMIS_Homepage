@@ -11,7 +11,6 @@ section.horizontal-two-column-layout {
             width: 30%;
             border-right: 1px dashed black;
             padding-right: 15px;
-
             display: flex;
             flex-direction: column;
             justify-content: space-between;

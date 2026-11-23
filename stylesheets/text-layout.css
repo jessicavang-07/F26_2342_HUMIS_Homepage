@@ -9,8 +9,7 @@ section.horizontal-two-column-layout {
         &.left-column {
             width: 30%;
             border-right: 1px dashed black;
-            padding-right: 30px;
-
+            padding-right: 45px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -21,12 +20,13 @@ section.horizontal-two-column-layout {
 
             div.top {
                 div.category {
+                    padding-top: 5px;
                     a {
                         display: block;
                         text-decoration: none;
                         color: black;
                         font-size: 0.75rem;
-                        margin-bottom: 0.2rem;
+                        padding: 2px;
 
                         &:hover {
                             text-decoration: underline;
@@ -47,104 +47,24 @@ section.horizontal-two-column-layout {
                 }
             }
 
-            div.bottom {
-
-                p {
-                    font-size: 0.7rem;
-
-                    span {
-                        display: block;
-
-                        &.name {
-                            font-weight: bold;
-                            font-size: 0.75rem;
-                        }
-
-                        &.title {
-                            font-weight: bold;
-                            font-style: italic;
-                        }
-
-                    }
-
-                    a {
-                        display: block;
-                        color: black;
-                        text-decoration: none;
-
-                        &:hover {
-                            text-decoration: underline;
-                        }
-                    }
-                }
-            }
 
         }
 
         &.right-column {
             width: 70%;
             padding-right: 15px;
-            color: var(--burgundy);
 
-            div.find-faculty {
-                line-height: 4px;
-                padding-bottom: 3px;
-
-                p {
-                    color: var(--burgundy);
-                }
+            p {
+                margin-bottom: 7px
             }
 
-            div.listing {
-                p {
-                    font-size: 0.7rem;
-                    color: black;
-
-                }
-
-
-                p.find-faculty {
-                    margin: 2px;
-                }
-
-                span {
-                    display: block;
-
-                    &.name {
-                        font-weight: bold;
-                        font-size: .9rem;
-                    }
-
-                    &.area-of-study {
-                        font-style: italic;
-                    }
-
-                }
-
-                a {
-                    display: block;
-                    text-indent: 0.5rem;
-                    color: black;
-
-                    &.phone {
-                        text-decoration: none;
-
-                        &:hover {
-                            text-decoration: underline;
-                        }
-                    }
-
-                    &.email {
-                        text-decoration: none;
-
-                        &:hover {
-                            text-decoration: underline;
-                        }
-                    }
-
-                }
-
+            p.bold {
+                font-weight: bold;
             }
+
+
+
+
 
         }
 
