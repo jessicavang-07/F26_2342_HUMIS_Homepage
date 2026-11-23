@@ -43,6 +43,9 @@ section.horizontal-two-column-layout {
                         a {
                             color: var(--burgundy);
                         }
+
+
+
                     }
                 }
             }
@@ -84,7 +87,7 @@ section.horizontal-two-column-layout {
         &.right-column {
             width: 70%;
             padding-right: 15px;
-            color: var(--burgundy);
+            color: black;
 
             div.find-faculty {
                 line-height: 4px;
