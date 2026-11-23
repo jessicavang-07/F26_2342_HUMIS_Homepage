@@ -84,7 +84,16 @@ section.horizontal-two-column-layout {
 
             }
 
+            p.learn-more {
+                margin-top: 2px;
+                padding-bottom: 3px;
+                text-align: left;
 
+                a {
+                    color: var(--burgundy);
+
+                }
+            }
 
 
         }
